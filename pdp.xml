@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+		<listener class-name="com.lenskart.listeners.TestListener" />
+	</listeners>
+  <test thread-count="5" name="Test">
+  <parameter name="browserType" value="chrome"></parameter>
+  <parameter name="appURL" value="https://www.lenskart.com/eyeglasses/marketing/vc-air-bestseller-eyeglasses.html"></parameter>
+    <classes>
+      <class name="com.lenskart.desktop.ProductsPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

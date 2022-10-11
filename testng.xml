@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Attendence Test">
+	<listeners>
+		<listener class-name="com.lenskart.listeners.TestListener" />
+	</listeners>
+	<test name="Test">
+		<parameter name="browserType" value="chrome"></parameter>
+		<parameter name="appURL" value="https://www.lenskart.com/vincent-chase-vc-e12852-c1-eyeglasses.html"></parameter>
+		<classes>
+			<class name="com.lenskart.desktop.GoogleTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
