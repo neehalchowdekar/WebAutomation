@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Failed suite [Suite]]]" data-provider-thread-count="2">
+  <test thread-count="5" name="Test(failed)(failed)(failed)">
+    <classes>
+      <class name="com.vsm.VSMCancellation">
+        <methods>
+          <include name="vsmCanelation" invocation-numbers="82"/>
+          <include name="quitDriver"/>
+        </methods>
+      </class> <!-- com.vsm.VSMCancellation -->
+    </classes>
+  </test> <!-- Test(failed)(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Failed suite [Suite]]] -->
